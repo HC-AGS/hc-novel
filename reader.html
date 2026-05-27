@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>阅读器</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;}
+        body{background:#fdf6e3;padding:20px;font-family:宋体,微软雅黑;}
+        .read-box{max-width:800px;margin:0 auto;background:#fff;padding:40px;border-radius:8px;min-height:90vh;}
+        .back{display:inline-block;padding:6px 14px;background:#2d8cf0;color:#fff;text-decoration:none;border-radius:4px;margin-bottom:20px;}
+        h2{text-align:center;margin:20px 0 30px;color:#222;}
+        .content{font-size:18px;line-height:2;color:#333;}
+        .content p{text-indent:2em;margin-bottom:16px;}
+        .loading{text-align:center;color:#999;}
+    </style>
+</head>
+<body>
+    <div class="read-box">
+        <a id="backBtn" href="" class="back">← 返回章节目录</a>
+        <h2 id="chapTitle">加载中...</h2>
+        <div class="content" id="chapContent">
+            <p class="loading">正在加载内容...</p>
+        </div>
+    </div>
+
+    <script>
+        const params = new URLSearchParams(location.search);
+        const txtPath = params.get('path');  // txt文件路径
+        const chapTitle = params.get('title');// 章节名
+        const listUrl = params.get('list');   // 回退到章节目录的地址
+
+        // 返回按钮跳转地址
+        document.getElementById('backBtn').href = listUrl || '#';
+        document.getElementById('chapTitle').innerText = chapTitle || '未知章节';
+
+        // 读取对应路径的TXT文件
+        if(txtPath){
+            fetch(txtPath)
+            .then(res => {
+                if(!res.ok) throw new Error("文件不存在");
+                return res.text();
+            })
+            .then(text => {
+                let html = '';
+                let lines = text.split(/\r?\n/);
+                lines.forEach(line => {
+                    if(line.trim()) html += `<p>${line}</p>`;
+                });
+                document.getElementById('chapContent').innerHTML = html;
+            })
+            .catch(err => {
+                document.getElementById('chapContent').innerHTML = `<p style="color:red">读取失败：${err.message}</p>`;
+            });
+        }else{
+            document.getElementById('chapContent').innerHTML = "<p>请从章节列表选择阅读</p>";
+        }
+    </script>
+</body>
+</html>
