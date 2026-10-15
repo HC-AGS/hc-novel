@@ -97,7 +97,7 @@ async function loadChapter(ch,keepScroll){
     if(t) chapTitle=t.textContent.trim();
     const bodyEl=doc.querySelector('body')||doc;
     content.innerHTML=bodyEl.innerHTML;
-    $('bChap').textContent='第 '+ch+' 章'+(chapTitle?'：'+chapTitle:'');
+    $('bChap').textContent=(chapTitle?chapTitle:('第 '+ch+' 章'));
     $('pLabel').textContent=ch+' / '+total;
     $('pBar').style.width=(total?ch/total*100:0)+'%';
     localStorage.setItem(pKey(),String(ch));
