@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+      <head>
+        <meta name="dtb:uid" content="book-id" />
+        <meta name="dtb:depth" content="1" />
+        <meta name="dtb:totalPageCount" content="0" />
+        <meta name="dtb:maxPageNumber" content="0" />
+      </head>
+      <docTitle>
+        <text>全球高考</text>
+      </docTitle>
+      <docAuthor>
+        <text></text>
+      </docAuthor>
+      <navMap>
+        <navPoint id="navPoint-chapter1" playOrder="1">
+<navLabel><text>文案：</text></navLabel>
+<content src="./OEBPS/chapter1.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter2" playOrder="2">
+<navLabel><text>第1卷 最后的晚餐</text></navLabel>
+<content src="./OEBPS/chapter2.xhtml" />
+<navPoint id="navPoint-chapter3" playOrder="3">
+<navLabel><text>第1章 送命题┃开场即结局</text></navLabel>
+<content src="./OEBPS/chapter3.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter4" playOrder="4">
+<navLabel><text>第2章 监考官┃“你不会……认识吧？”“忘了”</text></navLabel>
+<content src="./OEBPS/chapter4.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter5" playOrder="5">
+<navLabel><text>第3章 关禁闭┃要不您再睡一会儿？？？？？</text></navLabel>
+<content src="./OEBPS/chapter5.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter6" playOrder="6">
+<navLabel><text>第4章 二进宫┃你是不是打算住在这？</text></navLabel>
+<content src="./OEBPS/chapter6.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter7" playOrder="7">
+<navLabel><text>第5章 礼物┃送你，不谢。</text></navLabel>
+<content src="./OEBPS/chapter7.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter8" playOrder="8">
+<navLabel><text>第6章 猎人甲┃我有点饿，等开饭。</text></navLabel>
+<content src="./OEBPS/chapter8.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter9" playOrder="9">
+<navLabel><text>第7章 三次违规┃他搞死了题目。</text></navLabel>
+<content src="./OEBPS/chapter9.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter10" playOrder="10">
+<navLabel><text>第8章 回礼┃这是那只賍桶的回礼，喜欢么？</text></navLabel>
+<content src="./OEBPS/chapter10.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter11" playOrder="11">
+<navLabel><text>第9章 砍头庆祝┃游惑向他伸出手，说：“头拿来庆祝一下。”</text></navLabel>
+<content src="./OEBPS/chapter11.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter12" playOrder="12">
+<navLabel><text>第10章 高脚杯┃四次违规能把他吸纳成同事么？我不想再给他当监考了。</text></navLabel>
+<content src="./OEBPS/chapter12.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter13" playOrder="13">
+<navLabel><text>第11章 最后的晚餐┃考生提前交卷，本场考试顺利结束</text></navLabel>
+<content src="./OEBPS/chapter13.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter14" playOrder="14">
+<navLabel><text>第12章 下山┃奖励：考生游惑获得抽签权两次。</text></navLabel>
+<content src="./OEBPS/chapter14.xhtml" />
+</navPoint>
+</navPoint>
+<navPoint id="navPoint-chapter15" playOrder="15">
+<navLabel><text>第2卷 猜猜我是谁</text></navLabel>
+<content src="./OEBPS/chapter15.xhtml" />
+<navPoint id="navPoint-chapter16" playOrder="16">
+<navLabel><text>第13章 休息处┃知道么？有的考场里啊，还能找到以往考生的痕迹呢。</text></navLabel>
+<content src="./OEBPS/chapter16.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter17" playOrder="17">
+<navLabel><text>第14章 十字路口┃游惑冷笑一声，脸气绿了。</text></navLabel>
+<content src="./OEBPS/chapter17.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter18" playOrder="18">
+<navLabel><text>第15章 外语语种┃剥夺选择权就是哪哪都有你？</text></navLabel>
+<content src="./OEBPS/chapter18.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter19" playOrder="19">
+<navLabel><text>第16章 黑婆┃讲个笑话，看地碑能知道自己在哪儿。</text></navLabel>
+<content src="./OEBPS/chapter19.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter20" playOrder="20">
+<navLabel><text>第17章 分配房间┃另，禁止考生和监考官发展不正当关系，请重新分配房间。</text></navLabel>
+<content src="./OEBPS/chapter20.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter21" playOrder="21">
+<navLabel><text>第18章 听力题┃还他妈有这种操作？！</text></navLabel>
+<content src="./OEBPS/chapter21.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter22" playOrder="22">
+<navLabel><text>第19章 旧娃娃┃秦究：“……” 你居然还有脸提？？？</text></navLabel>
+<content src="./OEBPS/chapter22.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter23" playOrder="23">
+<navLabel><text>第20章 翻译软件┃于闻白着脸说：“我日……”</text></navLabel>
+<content src="./OEBPS/chapter23.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter24" playOrder="24">
+<navLabel><text>第21章 村民┃我好像在哪见过你们</text></navLabel>
+<content src="./OEBPS/chapter24.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter25" playOrder="25">
+<navLabel><text>第22章 墓碑┃大家都愣住了：“干嘛？” 气死黑婆？？</text></navLabel>
+<content src="./OEBPS/chapter25.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter26" playOrder="26">
+<navLabel><text>第23章 阅读题┃游惑莫名觉得，这位001号监考官身上缺了点什么。</text></navLabel>
+<content src="./OEBPS/chapter26.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter27" playOrder="27">
+<navLabel><text>第24章 缝还是不缝┃监考官：“优等生的小聪明不管用了？”</text></navLabel>
+<content src="./OEBPS/chapter27.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter28" playOrder="28">
+<navLabel><text>第25章 初始值┃也不一定，据说曾经还有一个初始值，算……前辈？</text></navLabel>
+<content src="./OEBPS/chapter28.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter29" playOrder="29">
+<navLabel><text>第26章 排位A┃“看不出么？它扭成这样肯定要走，我遛它回去。”游惑说。</text></navLabel>
+<content src="./OEBPS/chapter29.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter30" playOrder="30">
+<navLabel><text>第27章 要凉┃“哥，树林或者坟墓的吉普赛语怎么写？”游惑：“……不会。”</text></navLabel>
+<content src="./OEBPS/chapter30.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter31" playOrder="31">
+<navLabel><text>第28章 大佬疯了┃缝了16个娃娃</text></navLabel>
+<content src="./OEBPS/chapter31.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter32" playOrder="32">
+<navLabel><text>第29章 村民的秘密┃他的朋友为他立碑于此，愿他安息</text></navLabel>
+<content src="./OEBPS/chapter32.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter33" playOrder="33">
+<navLabel><text>第30章 日记本┃游惑：“不想考了，趁今晚把娃娃送完。”</text></navLabel>
+<content src="./OEBPS/chapter33.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter34" playOrder="34">
+<navLabel><text>第31章 火烧考场┃尘归尘，土归土。</text></navLabel>
+<content src="./OEBPS/chapter34.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter35" playOrder="35">
+<navLabel><text>第32章 处分┃【监考官处分一次。】 秦究：“呵。”</text></navLabel>
+<content src="./OEBPS/chapter35.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter36" playOrder="36">
+<navLabel><text>第33章 未知惩罚┃游惑把秦究的脸复制粘贴到司机身上，想象着那个画面，嗤笑一声。</text></navLabel>
+<content src="./OEBPS/chapter36.xhtml" />
+</navPoint>
+</navPoint>
+<navPoint id="navPoint-chapter37" playOrder="37">
+<navLabel><text>第3卷 你似乎很好吃</text></navLabel>
+<content src="./OEBPS/chapter37.xhtml" />
+<navPoint id="navPoint-chapter38" playOrder="38">
+<navLabel><text>第34章 于遥┃他自己已经不会去苦恼了，只有看的人知道。</text></navLabel>
+<content src="./OEBPS/chapter38.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter39" playOrder="39">
+<navLabel><text>第35章 新考生┃性感考官，惨遭罢黜</text></navLabel>
+<content src="./OEBPS/chapter39.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter40" playOrder="40">
+<navLabel><text>第36章 零分┃自己骚出来的0分。 无话可说。</text></navLabel>
+<content src="./OEBPS/chapter40.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter41" playOrder="41">
+<navLabel><text>第37章 上船┃海上马车夫</text></navLabel>
+<content src="./OEBPS/chapter41.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter42" playOrder="42">
+<navLabel><text>第38章 开放式答题┃本场考试正式开始，现在播放考试题目。</text></navLabel>
+<content src="./OEBPS/chapter42.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter43" playOrder="43">
+<navLabel><text>第39章 小药盒┃这场考试有那位瘟神，你说他会不会又来？</text></navLabel>
+<content src="./OEBPS/chapter43.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter44" playOrder="44">
+<navLabel><text>第40章 心疼监考┃监考官154、922、078、021正在赶来的路上。</text></navLabel>
+<content src="./OEBPS/chapter44.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter45" playOrder="45">
+<navLabel><text>第41章 秦究的禁闭室┃好像……这种记忆才是对的。</text></navLabel>
+<content src="./OEBPS/chapter45.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter46" playOrder="46">
+<navLabel><text>第42章 日记里的往事┃秦哥又被监考官抓走了</text></navLabel>
+<content src="./OEBPS/chapter46.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter47" playOrder="47">
+<navLabel><text>第43章 零星记忆┃你倒是醒啊大考官。</text></navLabel>
+<content src="./OEBPS/chapter47.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter48" playOrder="48">
+<navLabel><text>第44章 返程┃游惑依然对这位考官A有点兴趣，一副等着听他说下去的样子。</text></navLabel>
+<content src="./OEBPS/chapter48.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter49" playOrder="49">
+<navLabel><text>第45章 反向操作┃反向操作一波沉底</text></navLabel>
+<content src="./OEBPS/chapter49.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter50" playOrder="50">
+<navLabel><text>第46章 死亡责任┃于是，它把他们抓走啦。</text></navLabel>
+<content src="./OEBPS/chapter50.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter51" playOrder="51">
+<navLabel><text>第47章 半截烟┃大考官，给根烟。</text></navLabel>
+<content src="./OEBPS/chapter51.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter52" playOrder="52">
+<navLabel><text>第48章 你抽烟么？┃为什么问这个问题？</text></navLabel>
+<content src="./OEBPS/chapter52.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter53" playOrder="53">
+<navLabel><text>第49章 烤兔子┃078：“……现在申请调组来得及么？”</text></navLabel>
+<content src="./OEBPS/chapter53.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter54" playOrder="54">
+<navLabel><text>第50章 系统来历┃考生关禁闭能合并么？帮忙把我关到隔壁。</text></navLabel>
+<content src="./OEBPS/chapter54.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter55" playOrder="55">
+<navLabel><text>第51章 当面不相识┃你脑子是不是受过干预</text></navLabel>
+<content src="./OEBPS/chapter55.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter56" playOrder="56">
+<navLabel><text>第52章 小动静┃讲个笑话：为了给手机充电，【稍微】弄出点动静。</text></navLabel>
+<content src="./OEBPS/chapter56.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter57" playOrder="57">
+<navLabel><text>第53章 视频┃播放键一按，那条街道在模糊的光影下活了过来。</text></navLabel>
+<content src="./OEBPS/chapter57.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter58" playOrder="58">
+<navLabel><text>第54章 跳海┃在这里，秦究叫他“优等生”，系统叫他“考生游惑”。</text></navLabel>
+<content src="./OEBPS/chapter58.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter59" playOrder="59">
+<navLabel><text>第55章 完美┃考官A计划通√</text></navLabel>
+<content src="./OEBPS/chapter59.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter60" playOrder="60">
+<navLabel><text>第56章 幻听┃你失忆了还是我失忆了？</text></navLabel>
+<content src="./OEBPS/chapter60.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter61" playOrder="61">
+<navLabel><text>第57章 诈鱼┃秦究没憋住，扫视一圈评价说：“人气不错，一呼百应。”</text></navLabel>
+<content src="./OEBPS/chapter61.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter62" playOrder="62">
+<navLabel><text>第58章 今晚换菜┃太棒了，今晚换菜了！</text></navLabel>
+<content src="./OEBPS/chapter62.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter63" playOrder="63">
+<navLabel><text>第59章 白脸军团┃章鱼不知道自己造了什么孽。</text></navLabel>
+<content src="./OEBPS/chapter63.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter64" playOrder="64">
+<navLabel><text>第60章 急转直下┃翻山越岭来抓一个耍赖的</text></navLabel>
+<content src="./OEBPS/chapter64.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter65" playOrder="65">
+<navLabel><text>第61章 破浪┃154说：“他居然有求助的时候？”</text></navLabel>
+<content src="./OEBPS/chapter65.xhtml" />
+</navPoint>
+</navPoint>
+<navPoint id="navPoint-chapter66" playOrder="66">
+<navLabel><text>第4卷 别对我闭眼</text></navLabel>
+<content src="./OEBPS/chapter66.xhtml" />
+<navPoint id="navPoint-chapter67" playOrder="67">
+<navLabel><text>第62章 监考区┃监考官都生活在那里。</text></navLabel>
+<content src="./OEBPS/chapter67.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter68" playOrder="68">
+<navLabel><text>第63章 双子楼┃有些人啊……脑子一旦出了问题，什么头都点得下去！</text></navLabel>
+<content src="./OEBPS/chapter68.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter69" playOrder="69">
+<navLabel><text>第64章 往事┃再接再厉，大考官。</text></navLabel>
+<content src="./OEBPS/chapter69.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter70" playOrder="70">
+<navLabel><text>第65章 往事二┃去我那，死不了你。</text></navLabel>
+<content src="./OEBPS/chapter70.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter71" playOrder="71">
+<navLabel><text>第66章 梦想成真┃一千个学生，一千个大场面</text></navLabel>
+<content src="./OEBPS/chapter71.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter72" playOrder="72">
+<navLabel><text>第67章 过渡┃乙某人难说，他觉得自己肯定跑得掉。</text></navLabel>
+<content src="./OEBPS/chapter72.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter73" playOrder="73">
+<navLabel><text>第68章 前后桌┃传纸条</text></navLabel>
+<content src="./OEBPS/chapter73.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter74" playOrder="74">
+<navLabel><text>第36章 难忘今宵┃领口有点潮，外面下雨了么，考官？</text></navLabel>
+<content src="./OEBPS/chapter74.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter75" playOrder="75">
+<navLabel><text>第70章 2v2┃有一个问题想问很久了，你为什么戴耳钉？</text></navLabel>
+<content src="./OEBPS/chapter75.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter76" playOrder="76">
+<navLabel><text>第71章 耳钉┃被秦究这么一问，他才意识到，自己似乎从没考虑过要把它摘下来。</text></navLabel>
+<content src="./OEBPS/chapter76.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter77" playOrder="77">
+<navLabel><text>第72章 大佬扑火┃如果系统是个人，一个字就能代表整句话—— 滚！！！！</text></navLabel>
+<content src="./OEBPS/chapter77.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter78" playOrder="78">
+<navLabel><text>第73章 违规记录┃违规事项：与*关系过密。</text></navLabel>
+<content src="./OEBPS/chapter78.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter79" playOrder="79">
+<navLabel><text>第74章 聊一聊┃找了个特别麻烦的人，搞了一段地下情？</text></navLabel>
+<content src="./OEBPS/chapter79.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter80" playOrder="80">
+<navLabel><text>第75章 糟糕时代┃他不是看过来了，他是直接过来了！他要干嘛？</text></navLabel>
+<content src="./OEBPS/chapter80.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter81" playOrder="81">
+<navLabel><text>第76章 分房间┃那最好不过，我来找你偷情。</text></navLabel>
+<content src="./OEBPS/chapter81.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter82" playOrder="82">
+<navLabel><text>第77章 床上的人┃一套特别华丽的大裙子</text></navLabel>
+<content src="./OEBPS/chapter82.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter83" playOrder="83">
+<navLabel><text>第78章 公爵老爷┃他突然觉得游惑脖颈间的立领束得太紧了</text></navLabel>
+<content src="./OEBPS/chapter83.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter84" playOrder="84">
+<navLabel><text>第79章 公爵的心愿┃是以前有谁总跟你借火么？</text></navLabel>
+<content src="./OEBPS/chapter84.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter85" playOrder="85">
+<navLabel><text>第80章 旧友┃他不太习惯，但很高兴。</text></navLabel>
+<content src="./OEBPS/chapter85.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter86" playOrder="86">
+<navLabel><text>第81章 找死的病人┃被传染可是很可怕的一件事，会死哦。</text></navLabel>
+<content src="./OEBPS/chapter86.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter87" playOrder="87">
+<navLabel><text>第82章 客串反派┃被传染是什么可以得意的事吗？？？</text></navLabel>
+<content src="./OEBPS/chapter87.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter88" playOrder="88">
+<navLabel><text>第83章 恶作剧┃他只是来引诱对方犯点小错的，不想把自己搭进去。</text></navLabel>
+<content src="./OEBPS/chapter88.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter89" playOrder="89">
+<navLabel><text>第84章 叫板┃公爵差点气到去世。</text></navLabel>
+<content src="./OEBPS/chapter89.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter90" playOrder="90">
+<navLabel><text>第85章 速战速决┃公爵突然就兴奋不起来了。</text></navLabel>
+<content src="./OEBPS/chapter90.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter91" playOrder="91">
+<navLabel><text>第86章 恶意刷分┃你说你是不是思想有问题？没人犯规还叹上了。</text></navLabel>
+<content src="./OEBPS/chapter91.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter92" playOrder="92">
+<navLabel><text>第87章 因为闷┃监考官A，为什么你从禁闭室出来要洗澡？</text></navLabel>
+<content src="./OEBPS/chapter92.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter93" playOrder="93">
+<navLabel><text>第88章 诅咒应验┃他有几处伤？怎么还没醒？</text></navLabel>
+<content src="./OEBPS/chapter93.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter94" playOrder="94">
+<navLabel><text>第89章 诅咒渐重┃秦究正坐在废墟里，瘦长的手指被天光一照，白骨森森。</text></navLabel>
+<content src="./OEBPS/chapter94.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter95" playOrder="95">
+<navLabel><text>第90章 刑讯逼供┃公爵怎么杀？</text></navLabel>
+<content src="./OEBPS/chapter95.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter96" playOrder="96">
+<navLabel><text>第91章 如果游惑知道…… 会觉得刺激又痛快呢？还是会给他一拳？</text></navLabel>
+<content src="./OEBPS/chapter96.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter97" playOrder="97">
+<navLabel><text>第92章 安静多日的红色警告灯在此时疯狂闪烁</text></navLabel>
+<content src="./OEBPS/chapter97.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter98" playOrder="98">
+<navLabel><text>第93章 刻骨┃所以说爱恨真是奇怪的东西。</text></navLabel>
+<content src="./OEBPS/chapter98.xhtml" />
+</navPoint>
+</navPoint>
+<navPoint id="navPoint-chapter99" playOrder="99">
+<navLabel><text>第5卷 血液的狂欢</text></navLabel>
+<content src="./OEBPS/chapter99.xhtml" />
+<navPoint id="navPoint-chapter100" playOrder="100">
+<navLabel><text>第94章 锦鲤游惑┃他一把…………抽到了保送。</text></navLabel>
+<content src="./OEBPS/chapter100.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter101" playOrder="101">
+<navLabel><text>第95章 鬼故事┃讲个鬼故事：天仙下凡。</text></navLabel>
+<content src="./OEBPS/chapter101.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter102" playOrder="102">
+<navLabel><text>第96章 特殊区┃挺神奇的，你居然会喜欢什么人。</text></navLabel>
+<content src="./OEBPS/chapter102.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter103" playOrder="103">
+<navLabel><text>第97章 赌场┃论锦鲤A的正确使用方法。</text></navLabel>
+<content src="./OEBPS/chapter103.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter104" playOrder="104">
+<navLabel><text>第98章 赌神锦鲤┃我等人来借火。</text></navLabel>
+<content src="./OEBPS/chapter104.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter105" playOrder="105">
+<navLabel><text>第99章 姗姗来迟┃你俩又凑到一起了？这都第三次了。</text></navLabel>
+<content src="./OEBPS/chapter105.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter106" playOrder="106">
+<navLabel><text>第100章 定向考场┃本场考试为大型联合考场，请考生做好准备。</text></navLabel>
+<content src="./OEBPS/chapter106.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter107" playOrder="107">
+<navLabel><text>第101章 鬼屋兄妹┃那我就是客人的男朋友。</text></navLabel>
+<content src="./OEBPS/chapter107.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter108" playOrder="108">
+<navLabel><text>第102章 虚心发问┃我以前来这，真的只是关禁闭么？</text></navLabel>
+<content src="./OEBPS/chapter108.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter109" playOrder="109">
+<navLabel><text>第103章 八名歹徒┃人间惨剧</text></navLabel>
+<content src="./OEBPS/chapter109.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter110" playOrder="110">
+<navLabel><text>第104章 宣告死亡┃197考场，考生游惑弄哭了雪莉……又宣告死亡。</text></navLabel>
+<content src="./OEBPS/chapter110.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter111" playOrder="111">
+<navLabel><text>第105章 死亡刷屏┃让她哭</text></navLabel>
+<content src="./OEBPS/chapter111.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter112" playOrder="112">
+<navLabel><text>第106章 双面世界┃一只手捂住了他的眼睛，把他拽离了镜子。</text></navLabel>
+<content src="./OEBPS/chapter112.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter113" playOrder="113">
+<navLabel><text>第107章 答案┃哥哥萨利先哭了，哭得非常绝望……</text></navLabel>
+<content src="./OEBPS/chapter113.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter114" playOrder="114">
+<navLabel><text>第108章 歪打正着┃修改一下错误答案</text></navLabel>
+<content src="./OEBPS/chapter114.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter115" playOrder="115">
+<navLabel><text>第109章 精神污染┃197考场，考生游惑复活。</text></navLabel>
+<content src="./OEBPS/chapter115.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter116" playOrder="116">
+<navLabel><text>第110章 眼睛┃既然是模仿式学习，总要有模仿对象。</text></navLabel>
+<content src="./OEBPS/chapter116.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter117" playOrder="117">
+<navLabel><text>第111章 黑色绷带┃别看我的眼睛。</text></navLabel>
+<content src="./OEBPS/chapter117.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter118" playOrder="118">
+<navLabel><text>第112章 别闭眼┃没什么……情不自禁。</text></navLabel>
+<content src="./OEBPS/chapter118.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter119" playOrder="119">
+<navLabel><text>第113章 新题目┃别离我太近，我怕睁眼看到一堆被啃过的骨头。</text></navLabel>
+<content src="./OEBPS/chapter119.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter120" playOrder="120">
+<navLabel><text>第114章 拍皮球┃我要凉了。</text></navLabel>
+<content src="./OEBPS/chapter120.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter121" playOrder="121">
+<navLabel><text>第115章 秦某和游某┃两位大佬都需要冷静一下。</text></navLabel>
+<content src="./OEBPS/chapter121.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter122" playOrder="122">
+<navLabel><text>第116章 考场记录┃这他妈不是主考官A吗？？？</text></navLabel>
+<content src="./OEBPS/chapter122.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter123" playOrder="123">
+<navLabel><text>第117章 礼物┃雪莉宣告死亡。</text></navLabel>
+<content src="./OEBPS/chapter123.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter124" playOrder="124">
+<navLabel><text>第118章 我很爱你┃大考官，劳驾低一下头，跟你说个事。</text></navLabel>
+<content src="./OEBPS/chapter124.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter125" playOrder="125">
+<navLabel><text>第119章 老于的禁闭室┃负责的几个监考官当场死机。</text></navLabel>
+<content src="./OEBPS/chapter125.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter126" playOrder="126">
+<navLabel><text>第120章 病床上的女人┃我不是来救你的，我是来爱你的。</text></navLabel>
+<content src="./OEBPS/chapter126.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter127" playOrder="127">
+<navLabel><text>第121章 共享照片┃你有其他照片么？小时候的。</text></navLabel>
+<content src="./OEBPS/chapter127.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter128" playOrder="128">
+<navLabel><text>第122章 赌博┃赌我挑朋友的眼光。</text></navLabel>
+<content src="./OEBPS/chapter128.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter129" playOrder="129">
+<navLabel><text>第123章 落地成盒┃考生游惑，第一阶段累积成绩排名为：99%，暂时无权进入庇护所</text></navLabel>
+<content src="./OEBPS/chapter129.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter130" playOrder="130">
+<navLabel><text>第124章 遭逢打劫┃打劫谁不好，打劫八人反派小团伙。</text></navLabel>
+<content src="./OEBPS/chapter130.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter131" playOrder="131">
+<navLabel><text>第125章 抄老窝┃踏马的说好凑不齐十个呢！</text></navLabel>
+<content src="./OEBPS/chapter131.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter132" playOrder="132">
+<navLabel><text>第126章 跳槽的地理</text></navLabel>
+<content src="./OEBPS/chapter132.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter133" playOrder="133">
+<navLabel><text>第127章 弄巧成拙┃他听到了大批镜像人奔来的脚步声。</text></navLabel>
+<content src="./OEBPS/chapter133.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter134" playOrder="134">
+<navLabel><text>第128章 发球机┃这特么就是两个人形发球机！</text></navLabel>
+<content src="./OEBPS/chapter134.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter135" playOrder="135">
+<navLabel><text>第129章 见证奇迹┃小同学一抬头，八个镜像人默默瞅着他。</text></navLabel>
+<content src="./OEBPS/chapter135.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter136" playOrder="136">
+<navLabel><text>第130章 淘汰制┃淘汰就是消失，就是……再也找不到了。</text></navLabel>
+<content src="./OEBPS/chapter136.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter137" playOrder="137">
+<navLabel><text>第131章 卧底┃亲爱的，你未免太有分寸了点</text></navLabel>
+<content src="./OEBPS/chapter137.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter138" playOrder="138">
+<navLabel><text>第132章 熟悉的陌生者┃游惑调出一张照片问：“认识她么？”</text></navLabel>
+<content src="./OEBPS/chapter138.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter139" playOrder="139">
+<navLabel><text>第133章 秦究┃这也许就是敢死队挑出来的人吧。</text></navLabel>
+<content src="./OEBPS/chapter139.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter140" playOrder="140">
+<navLabel><text>第134章 老于┃你愿意告诉我什么就说什么。</text></navLabel>
+<content src="./OEBPS/chapter140.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter141" playOrder="141">
+<navLabel><text>第135章 未知理由┃都是镜像人怕什么？</text></navLabel>
+<content src="./OEBPS/chapter141.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter142" playOrder="142">
+<navLabel><text>第136章 下套┃冒昧问一下，你刚刚说谁毫无尊严？</text></navLabel>
+<content src="./OEBPS/chapter142.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter143" playOrder="143">
+<navLabel><text>第137章 条件┃游惑偏了一下头，对秦究说：“这次你来。”</text></navLabel>
+<content src="./OEBPS/chapter143.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter144" playOrder="144">
+<navLabel><text>第138章 守株待兔┃这他妈还怎么玩儿？</text></navLabel>
+<content src="./OEBPS/chapter144.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter145" playOrder="145">
+<navLabel><text>第139章 触发条件┃来，有脸就把箭往这里射。</text></navLabel>
+<content src="./OEBPS/chapter145.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter146" playOrder="146">
+<navLabel><text>第140章 同僚┃一种可以被称为信仰和默契的东西。</text></navLabel>
+<content src="./OEBPS/chapter146.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter147" playOrder="147">
+<navLabel><text>第141章 Plan B┃考官A出了个主意</text></navLabel>
+<content src="./OEBPS/chapter147.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter148" playOrder="148">
+<navLabel><text>第142章 “耳钉”┃亲爱的，我把自己放在你耳边，总有一天，你会听到的吧。</text></navLabel>
+<content src="./OEBPS/chapter148.xhtml" />
+</navPoint>
+</navPoint>
+<navPoint id="navPoint-chapter149" playOrder="149">
+<navLabel><text>第6卷 喧嚣人间</text></navLabel>
+<content src="./OEBPS/chapter149.xhtml" />
+<navPoint id="navPoint-chapter150" playOrder="150">
+<navLabel><text>第143章 开端┃违规考生秦究，跟我去监考处</text></navLabel>
+<content src="./OEBPS/chapter150.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter151" playOrder="151">
+<navLabel><text>第144章 转折┃秦究突然发现，自己居然有点想念这位考官先生了。</text></navLabel>
+<content src="./OEBPS/chapter151.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter152" playOrder="152">
+<navLabel><text>第145章 同行┃如果有，那一定只存在于终老和死亡里。</text></navLabel>
+<content src="./OEBPS/chapter152.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter153" playOrder="153">
+<navLabel><text>第146章 重逢┃因为他刚说到一半，突然想不起来自己为什么要问这个问题了。</text></navLabel>
+<content src="./OEBPS/chapter153.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter154" playOrder="154">
+<navLabel><text>第147章 旧路┃但他想把对方领头骗过来。</text></navLabel>
+<content src="./OEBPS/chapter154.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter155" playOrder="155">
+<navLabel><text>第148章 废墟┃还没离开，他就已经开始想念了。</text></navLabel>
+<content src="./OEBPS/chapter155.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter156" playOrder="156">
+<navLabel><text>第149章 2号休息处┃游惑：“补偿我。”</text></navLabel>
+<content src="./OEBPS/chapter156.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter157" playOrder="157">
+<navLabel><text>第150章 拦路石┃那会是谁呢……</text></navLabel>
+<content src="./OEBPS/chapter157.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter158" playOrder="158">
+<navLabel><text>第151章 终点之前┃他们的任务是瓦解系统，他们的信仰是让这里的所有人终归自由。</text></navLabel>
+<content src="./OEBPS/chapter158.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter159" playOrder="159">
+<navLabel><text>第152章 关键┃不行的话，我们直接去绑。</text></navLabel>
+<content src="./OEBPS/chapter159.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter160" playOrder="160">
+<navLabel><text>第153章 修正程序┃我怀疑已经出故障，不能正常用了。</text></navLabel>
+<content src="./OEBPS/chapter160.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter161" playOrder="161">
+<navLabel><text>第154章 新队友┃洗劫武器库说</text></navLabel>
+<content src="./OEBPS/chapter161.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter162" playOrder="162">
+<navLabel><text>第155章 语文┃举杯邀明月，对影成三人</text></navLabel>
+<content src="./OEBPS/chapter162.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter163" playOrder="163">
+<navLabel><text>第156章 故地重游┃只有身处暖春，才会怕冷。</text></navLabel>
+<content src="./OEBPS/chapter163.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter164" playOrder="164">
+<navLabel><text>第157章 带路者┃我们牵住这群人，你们用最大火力轰。</text></navLabel>
+<content src="./OEBPS/chapter164.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter165" playOrder="165">
+<navLabel><text>第158章 合作无间┃给你们1分钟时间考虑一下</text></navLabel>
+<content src="./OEBPS/chapter165.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter166" playOrder="166">
+<navLabel><text>第159章 最后一次处罚┃他见过一个光明炽热的人，靠着这个，他可以走过整个寒冬。</text></navLabel>
+<content src="./OEBPS/chapter166.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter167" playOrder="167">
+<navLabel><text>第160章 告别┃我叫秦究，我来找我的真实。</text></navLabel>
+<content src="./OEBPS/chapter167.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter168" playOrder="168">
+<navLabel><text>第161章 硝烟散尽┃是万家灯火，是喧嚣人间。</text></navLabel>
+<content src="./OEBPS/chapter168.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter169" playOrder="169">
+<navLabel><text>第162章 冬┃那天是12月7号，冬，大雪。</text></navLabel>
+<content src="./OEBPS/chapter169.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter170" playOrder="170">
+<navLabel><text>第163章 承诺┃从此以后，他都不会再食言了。</text></navLabel>
+<content src="./OEBPS/chapter170.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter171" playOrder="171">
+<navLabel><text>第164章 春┃一生的挚友</text></navLabel>
+<content src="./OEBPS/chapter171.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter172" playOrder="172">
+<navLabel><text>第165章 夏┃秦究问：“算惊喜么？”</text></navLabel>
+<content src="./OEBPS/chapter172.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter173" playOrder="173">
+<navLabel><text>第166章 秋┃世界灿烂盛大，欢迎回家</text></navLabel>
+<content src="./OEBPS/chapter173.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter174" playOrder="174">
+<navLabel><text>第167章 番外 归人</text></navLabel>
+<content src="./OEBPS/chapter174.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter175" playOrder="175">
+<navLabel><text>第168章 520小剧场</text></navLabel>
+<content src="./OEBPS/chapter175.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter176" playOrder="176">
+<navLabel><text>第169章 七夕小剧场</text></navLabel>
+<content src="./OEBPS/chapter176.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter177" playOrder="177">
+<navLabel><text>第170章 情人节小剧场</text></navLabel>
+<content src="./OEBPS/chapter177.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter178" playOrder="178">
+<navLabel><text>第171章 生日小剧场——游惑</text></navLabel>
+<content src="./OEBPS/chapter178.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter179" playOrder="179">
+<navLabel><text>第172章 生日小剧场——秦究</text></navLabel>
+<content src="./OEBPS/chapter179.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter180" playOrder="180">
+<navLabel><text>第173章 谨以此书献给素未谋面的朋友</text></navLabel>
+<content src="./OEBPS/chapter180.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter181" playOrder="181">
+<navLabel><text>第174章 番外（上）</text></navLabel>
+<content src="./OEBPS/chapter181.xhtml" />
+</navPoint>
+<navPoint id="navPoint-chapter182" playOrder="182">
+<navLabel><text>第175章 番外（下）</text></navLabel>
+<content src="./OEBPS/chapter182.xhtml" />
+</navPoint>
+</navPoint>
+      </navMap>
+    </ncx>

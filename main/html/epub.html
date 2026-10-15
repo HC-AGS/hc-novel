@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>阅读中…</title>
+<style>
+:root{--bg:#fff;--fg:#000;--accent:#16a34a;--muted:#777;--line:#000}
+body.dark{--bg:#000;--fg:#fff;--accent:#22c55e;--muted:#9aa;--line:#22c55e}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:-apple-system,system-ui,Segoe UI,Roboto,sans-serif;transition:background .2s,color .2s}
+.topbar{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:2px solid var(--line);padding:10px 14px}
+.title-row{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:700}
+.title-row .book{color:var(--accent)}
+.title-row .chap{color:var(--muted);font-weight:400;font-size:14px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.tools{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.btn{background:var(--bg);color:var(--fg);border:2px solid var(--line);border-radius:7px;padding:6px 11px;font-size:13px;cursor:pointer;font-weight:600}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.fsize{display:flex;align-items:center;gap:6px}
+.fsize span{min-width:34px;text-align:center;font-size:13px;color:var(--muted)}
+.content{max-width:760px;margin:0 auto;padding:28px 20px 90px;line-height:1.95}
+.content p{margin:0 0 1.1em}
+.content h1,.content h2,.content h3{margin:.6em 0 .5em;color:var(--accent)}
+.chapter-title{text-align:center;font-size:1.4em;color:var(--accent);margin-bottom:1.4em;font-weight:800}
+.progress{position:fixed;bottom:0;left:0;right:0;background:var(--bg);border-top:2px solid var(--line);padding:8px 14px;display:flex;align-items:center;gap:10px;z-index:10}
+.progress .pct{flex:1;height:8px;background:#00000022;border-radius:6px;overflow:hidden;border:1px solid var(--line)}
+.progress .bar{height:100%;background:var(--accent);width:0}
+.progress .label{font-size:12px;color:var(--muted);white-space:nowrap}
+.loading{text-align:center;padding:60px;color:var(--muted)}
+.err{text-align:center;padding:40px;color:var(--accent)}
+.toc{display:none;position:fixed;inset:0;background:var(--bg);z-index:20;overflow:auto;padding:20px}
+.toc.show{display:block}
+.toc .head{display:flex;justify-content:space-between;align-items:center;font-weight:700;margin-bottom:14px}
+.toc .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(56px,1fr));gap:6px}
+.toc .grid button{background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:5px;padding:7px 0;font-size:13px;cursor:pointer}
+.toc .grid button.cur{background:var(--accent);color:#fff;border-color:var(--accent)}
+input.jmp{width:70px;border:2px solid var(--line);border-radius:6px;padding:4px;font-size:13px;background:var(--bg);color:var(--fg)}
+@media(max-width:600px){.title-row{font-size:14px}}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="title-row"><span class="book" id="bName">加载中</span><span class="chap" id="bChap">…</span></div>
+  <div class="tools">
+    <button class="btn" id="prev">◀ 上一章</button>
+    <button class="btn" id="next">下一章 ▶</button>
+    <div class="fsize"><button class="btn" id="fontD">A-</button><span id="fontV">18</span><button class="btn" id="fontU">A+</button></div>
+    <button class="btn" id="tocBtn">目录</button>
+    <button class="btn" id="themeBtn">◐ 主题</button>
+    <a class="btn" id="homeBtn" href="main.html">≡ 书库</a>
+  </div>
+</div>
+<div class="content" id="content"><div class="loading">正在加载章节…</div></div>
+<div class="toc" id="tocBox">
+  <div class="head"><span>目录（共 <span id="tocTotal">0</span> 章）</span><button class="btn primary" id="tocClose">关闭</button></div>
+  <div style="display:flex;gap:8px;align-items:center;margin-bottom:14px"><span style="font-size:13px;color:var(--muted)">跳转到第</span><input class="jmp" id="jmpInput" type="number" min="1"/><button class="btn" id="jmpGo">前往</button></div>
+  <div class="grid" id="tocGrid"></div>
+</div>
+<div class="progress"><span class="label" id="pLabel">– / –</span><div class="pct"><div class="bar" id="pBar"></div></div></div>
+<script>
+const params = new URLSearchParams(location.search);
+const BOOK = decodeURIComponent(params.get('book') || '');
+let BOOKINFO = null, chapter = parseInt(params.get('chap')||'1',10), total = 0;
+let fontSize = parseInt(localStorage.getItem('hc_fontsize')||'18',10), tocBuilt = false;
+const $ = id => document.getElementById(id);
+const pKey = () => 'hc_prog_'+encodeURIComponent(BOOK);
+const sKey = c => 'hc_scroll_'+encodeURIComponent(BOOK)+'_'+c;
+async function loadIndex(){
+  const r=await fetch('novel_index.json',{cache:'no-cache'});
+  const list=await r.json();
+  BOOKINFO=list.find(b=>b.name===BOOK)||list.find(b=>b.location==='novel/'+BOOK);
+  if(BOOKINFO) total=BOOKINFO.chapterCount;
+  $('bName').textContent=BOOKINFO?BOOKINFO.name:BOOK;
+  if(BOOKINFO) document.title=BOOKINFO.name+' · 阅读';
+}
+function loadSavedChapter(){
+  const c=parseInt(localStorage.getItem(pKey())||'',10);
+  if(c&&c>=1&&c<=(total||c)) chapter=c;
+  if(chapter<1) chapter=1;
+  if(total&&chapter>total) chapter=total;
+}
+function base(){return '../'+(BOOKINFO?BOOKINFO.location:'novel/'+BOOK);}
+async function loadChapter(ch,keepScroll){
+  if(ch<1||(total&&ch>total)) ch=Math.max(1,Math.min(total||ch,ch));
+  chapter=ch;
+  const content=$('content');
+  content.innerHTML='<div class="loading">正在加载第 '+ch+' 章…</div>';
+  try{
+    const url=base()+'/OEBPS/chapter'+ch+'.xhtml';
+    const res=await fetch(url,{cache:'no-cache'});
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const text=await res.text();
+    const doc=new DOMParser().parseFromString(text,'text/html');
+    let chapTitle='';
+    const t=doc.querySelector('h1')||doc.querySelector('title');
+    if(t) chapTitle=t.textContent.trim();
+    const bodyEl=doc.querySelector('body')||doc;
+    content.innerHTML='<div class="chapter-title">第 '+ch+' 章'+(chapTitle?' · '+chapTitle:'')+'</div>'+bodyEl.innerHTML;
+    $('bChap').textContent='第 '+ch+' 章'+(chapTitle?'：'+chapTitle:'');
+    $('pLabel').textContent=ch+' / '+total;
+    $('pBar').style.width=(total?ch/total*100:0)+'%';
+    localStorage.setItem(pKey(),String(ch));
+    if(!keepScroll){const saved=parseFloat(localStorage.getItem(sKey(ch))||'0');setTimeout(()=>{window.scrollTo(0,saved||0);},30);}
+    renderToc();
+  }catch(e){
+    content.innerHTML='<div class="err">加载失败：'+e.message+'<br><br>路径：'+base()+'/OEBPS/chapter'+ch+'.xhtml</div>';
+  }
+}
+function prev(){if(chapter>1) loadChapter(chapter-1);}
+function next(){if(!total||chapter<total) loadChapter(chapter+1);}
+function setFont(px){fontSize=px;$('content').style.fontSize=px+'px';$('fontV').textContent=px;localStorage.setItem('hc_fontsize',px);}
+function changeFont(d){setFont(Math.max(13,Math.min(30,fontSize+d)));}
+function buildToc(){
+  const grid=$('tocGrid');grid.innerHTML='';
+  const frag=document.createDocumentFragment();
+  for(let i=1;i<=total;i++){const b=document.createElement('button');b.textContent=i;b.dataset.c=i;b.onclick=()=>{$('tocBox').classList.remove('show');loadChapter(i);};frag.appendChild(b);}
+  grid.appendChild(frag);tocBuilt=true;
+}
+function renderToc(){
+  $('tocTotal').textContent=total;$('jmpInput').max=total;
+  if(!tocBuilt) buildToc();
+  document.querySelectorAll('#tocGrid button.cur').forEach(b=>b.classList.remove('cur'));
+  const cur=document.querySelector('#tocGrid button[data-c="'+chapter+'"]');
+  if(cur) cur.classList.add('cur');
+  $('jmpInput').value=chapter;
+}
+function toggleTheme(){document.body.classList.toggle('dark');localStorage.setItem('hc_theme',document.body.classList.contains('dark')?'dark':'light');}
+let scrollTimer=null;
+window.addEventListener('scroll',()=>{if(!BOOK)return;clearTimeout(scrollTimer);scrollTimer=setTimeout(()=>{localStorage.setItem(sKey(chapter),String(window.scrollY));},400);});
+window.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT')return;if(e.key==='ArrowLeft')prev();if(e.key==='ArrowRight')next();});
+async function boot(){
+  await loadIndex();loadSavedChapter();
+  const th=localStorage.getItem('hc_theme');if(th==='dark') document.body.classList.add('dark');
+  setFont(fontSize);
+  $('prev').onclick=prev;$('next').onclick=next;
+  $('fontD').onclick=()=>changeFont(-1);$('fontU').onclick=()=>changeFont(1);
+  $('themeBtn').onclick=toggleTheme;
+  $('tocBtn').onclick=()=>{$('tocBox').classList.add('show');if(!tocBuilt)buildToc();};
+  $('tocClose').onclick=()=>$('tocBox').classList.remove('show');
+  $('jmpGo').onclick=()=>{const v=parseInt($('jmpInput').value,10);if(v>=1&&(!total||v<=total)){$('tocBox').classList.remove('show');loadChapter(v);};};
+  $('jmpInput').addEventListener('keydown',e=>{if(e.key==='Enter')$('jmpGo').click();});
+  loadChapter(chapter);
+}
+boot();
+</script>
+</body>
+</html>

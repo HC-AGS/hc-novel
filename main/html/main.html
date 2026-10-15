@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>HC 小说库</title>
+<style>
+:root{--green:#16a34a}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,system-ui,Segoe UI,Roboto,sans-serif;background:#fff;color:#000;min-height:100vh}
+.wrap{max-width:960px;margin:0 auto;padding:32px 20px 80px}
+header{text-align:center;padding:16px 0 8px}
+.brand{font-size:30px;font-weight:800;color:#000;letter-spacing:2px}
+.brand span{color:var(--green)}
+.slogan{margin-top:8px;color:#555;font-size:14px}
+.search-box{margin:24px 0}
+.search-box input{width:100%;padding:12px 14px;font-size:15px;border:2px solid #000;border-radius:8px;outline:none;background:#fff}
+.search-box input:focus{border-color:var(--green)}
+.stats{text-align:center;color:#666;font-size:13px;margin-bottom:10px}
+.book-list{word-wrap:break-word;line-height:2.4;font-size:20px;text-align:center}
+.book-item{display:inline;cursor:pointer;margin:0 2px;color:#000;font-weight:600}
+.book-item:hover{color:var(--green);text-decoration:underline}
+.book-item.active{color:var(--green);font-weight:800}
+.book-item .chap{color:#999;font-size:13px;font-weight:400}
+.detail{margin-top:28px;border:2px solid #000;border-radius:12px;overflow:hidden;display:none}
+.detail.show{display:block}
+.detail-head{background:#000;color:#fff;padding:16px 20px;display:flex;align-items:center;justify-content:space-between}
+.detail-head h2{font-size:20px}
+.detail-head .badge{background:var(--green);color:#fff;font-size:12px;padding:3px 10px;border-radius:20px}
+.detail-body{padding:18px 20px}
+.detail-body .row{font-size:15px;margin:6px 0}
+.detail-body .label{color:var(--green);font-weight:700;min-width:56px;display:inline-block}
+.detail-body .desc{color:#444;line-height:1.7;min-height:1.7em}
+.btn-read{margin-top:16px;display:inline-block;background:var(--green);color:#fff;padding:12px 34px;border-radius:8px;font-size:16px;font-weight:700;text-decoration:none}
+.btn-read:hover{background:#000}
+.empty{text-align:center;color:#888;padding:30px;font-size:15px}
+footer{text-align:center;color:#999;font-size:12px;margin-top:50px}
+@media(max-width:600px){.book-list{font-size:17px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="brand">HC <span>小说库</span></div>
+  <div class="slogan">纯前端 · 进度自动记忆 · 黑白绿</div>
+</header>
+<div class="search-box"><input id="search" type="text" placeholder="搜索小说名称…" autocomplete="off"/></div>
+<div class="stats" id="stats">加载中…</div>
+<div class="book-list" id="bookList"></div>
+<div class="empty" id="empty" style="display:none">没有匹配的小说</div>
+<div class="detail" id="detail">
+  <div class="detail-head"><h2 id="dName"></h2><span class="badge" id="dChap"></span></div>
+  <div class="detail-body">
+    <div class="row"><span class="label">作者</span><span id="dAuthor">—</span></div>
+    <div class="row"><span class="label">章节</span><span id="dChapNum"></span></div>
+    <div class="row"><span class="label">简介</span></div>
+    <div class="desc" id="dDesc">（暂无简介）</div>
+    <a class="btn-read" id="dRead" href="#">▶ 开始阅读</a>
+  </div>
+</div>
+<footer>Powered by hc-novel · 黑白绿 · 无渐变</footer>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
