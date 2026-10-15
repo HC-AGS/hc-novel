@@ -96,7 +96,7 @@ async function loadChapter(ch,keepScroll){
     const t=doc.querySelector('h1')||doc.querySelector('title');
     if(t) chapTitle=t.textContent.trim();
     const bodyEl=doc.querySelector('body')||doc;
-    content.innerHTML='<div class="chapter-title">第 '+ch+' 章'+(chapTitle?' · '+chapTitle:'')+'</div>'+bodyEl.innerHTML;
+    content.innerHTML=bodyEl.innerHTML;
     $('bChap').textContent='第 '+ch+' 章'+(chapTitle?'：'+chapTitle:'');
     $('pLabel').textContent=ch+' / '+total;
     $('pBar').style.width=(total?ch/total*100:0)+'%';
